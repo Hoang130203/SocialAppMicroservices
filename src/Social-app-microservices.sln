@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{3F0893E7-CEAE-4D3C-AE5B-C657AECB84BB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Post", "Post", "{C7A20B3D-BF30-4152-A0FF-14756BFE1A3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "User", "User", "{B7FDE353-C84E-4076-A704-EE448B3E0778}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Message", "Message", "{7C9A90F3-767D-47E2-81B1-CF4EA080CFD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{C02EAFB1-8D31-45B4-BCC0-3B053A54C166}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Media", "Media", "{0A8876C8-E890-46B3-AEF4-D2E792201C09}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IdentityMicroservice", "Identity\IdentityMicroservice\IdentityMicroservice.csproj", "{271C334C-5B1E-4C37-BE20-604C85CE88A5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Middleware", "Middleware", "{3FF7DA07-BF8C-439A-9C63-40181CF8FA72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Middleware", "Middleware\Middleware.csproj", "{8296CA02-7292-42BC-846C-60508909D7F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{271C334C-5B1E-4C37-BE20-604C85CE88A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{271C334C-5B1E-4C37-BE20-604C85CE88A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{271C334C-5B1E-4C37-BE20-604C85CE88A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{271C334C-5B1E-4C37-BE20-604C85CE88A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8296CA02-7292-42BC-846C-60508909D7F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8296CA02-7292-42BC-846C-60508909D7F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8296CA02-7292-42BC-846C-60508909D7F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8296CA02-7292-42BC-846C-60508909D7F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C7A20B3D-BF30-4152-A0FF-14756BFE1A3C} = {3F0893E7-CEAE-4D3C-AE5B-C657AECB84BB}
+		{B7FDE353-C84E-4076-A704-EE448B3E0778} = {3F0893E7-CEAE-4D3C-AE5B-C657AECB84BB}
+		{7C9A90F3-767D-47E2-81B1-CF4EA080CFD9} = {3F0893E7-CEAE-4D3C-AE5B-C657AECB84BB}
+		{C02EAFB1-8D31-45B4-BCC0-3B053A54C166} = {3F0893E7-CEAE-4D3C-AE5B-C657AECB84BB}
+		{0A8876C8-E890-46B3-AEF4-D2E792201C09} = {3F0893E7-CEAE-4D3C-AE5B-C657AECB84BB}
+		{271C334C-5B1E-4C37-BE20-604C85CE88A5} = {C02EAFB1-8D31-45B4-BCC0-3B053A54C166}
+		{8296CA02-7292-42BC-846C-60508909D7F4} = {3FF7DA07-BF8C-439A-9C63-40181CF8FA72}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {37AB6627-497C-4E95-AC9B-507AE4F6003E}
+	EndGlobalSection
+EndGlobal
